@@ -44,8 +44,8 @@
 function consoleStyler(color, background, fontSize, txt) {
   var message = "%c" + txt;
   var style = `color: ${color};`;
-  style += `background: ${background}`;
-  style += `font-size: ${fontSize}`;
+  style += `background: ${background};`;
+  style += `font-size: ${fontSize};`;
 
   console.log(message, style);
 }
@@ -137,9 +137,9 @@ celebrateStyler('birthday');
       - `'champions'`
 */
 
-function styleAndCelebrate(color, background, fontSize, txt, reason) {
+`function styleAndCelebrate(color, background, fontSize, txt, reason) {
   consoleStyler(color, background, fontSize, txt);
   celebrateStyler(reason);
 }
 
-styleAndCelebrate('ef7c8e', 'fae8e0', '30px', 'You made it!', 'champions');
+styleAndCelebrate('ef7c8e', 'fae8e0', '30px', 'You made it!', 'champions');`
