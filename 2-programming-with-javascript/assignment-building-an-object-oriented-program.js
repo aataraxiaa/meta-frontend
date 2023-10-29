@@ -108,12 +108,10 @@ Run the `goToWork()` method on the intern object. Then `return` the intern objec
 
 // Task 3: Code an intern object, run methods
 function intern() {
-  const intern = new Worker("Bob, 21, 110, 0)
+  const intern = new Worker("Bob", 21, 110, 0, 10);
+  intern.goToWork();
+  return intern;
 }
-
-const intern1 = new intern();
-console.log(intern1);
-intern1.goToWork();
 
 /*
 ## Task 4: Code a manager object
@@ -140,15 +138,7 @@ Run the `doSomethingFun()` method on the manager object. Then `return` the manag
 
 // Task 4: Code a manager object, methods
 function manager() {
-  this.worker = new Worker("Alice", 30, 120, 100, 30);
-
-  this.doSomethingFun = function () {
-    this.worker.doSomethingFun();
-    return this;
-  }
+  const manager = new Worker("Alice", 30, 120, 100, 30);
+  manager.doSomethingFun();
+  return manager;
 }
-
-const manager1 = new manager();
-manager1.doSomethingFun();
-
-
