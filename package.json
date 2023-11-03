@@ -1,0 +1,23 @@
+{
+  "name": "meta-frontend",
+  "version": "1.0.0",
+  "description": "A repository for coursework relating to the Meta Front-End Developer Professional Certificate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superpeteblaze/meta-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superpeteblaze/meta-frontend/issues"
+  },
+  "homepage": "https://github.com/superpeteblaze/meta-frontend#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
